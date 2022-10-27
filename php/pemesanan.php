@@ -4,13 +4,18 @@
 <head>
   <title>From Pemesanan</title>
   <link rel="stylesheet" href="../css/style.css">
+  <script>
+    function msg() {
+      alert("Apakah anda yakin!!!")
+    }
+  </script>
 </head>
 
 <body>
   <div class="container">
     <h2>From Pemesanan</h2>
     <form action="/action_page.php" method="post">
-      <table border="1" cellspacing="5" cellpadding="0">
+      <table cellspacing="20" cellpadding="0">
         <tr>
           <td><label for="nama">Nama Lengkap</label></td>
           <td colspan="2"><input type="text" id="nama"></td>
@@ -46,9 +51,18 @@
           <td colspan="2"><input type="number" id="jmlPenumLansi"></td>
         </tr>
         <tr>
-          <td colspan="3"><input type="submit" value="Hitung Total Harga"><input type="submit" value="Pesan Tiket"><input type="reset" value="reset">
-          </td>
+          <td><label for="setHarga">Harga Tiket</label></td>
+          <td><label id="setHarga">0</label></td>
         </tr>
+        <tr>
+          <td><label for="setBayar">Total Bayar</label></td>
+          <td><label id="setBayar">0</label></td>
+        </tr>
+        <!-- <tr>
+          <td colspan="2">
+            <input type="submit" value="Hitung Total Harga"><input type="submit" value="Pesan Tiket"><input type="reset" value="Reset" onclick="msg()">
+          </td>
+        </tr> -->
       </table>
     </form>
   </div>

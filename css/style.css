@@ -1,11 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
-#success_message {
-    display: none;
-}
 
 body {
     font-family: arial;
@@ -13,9 +10,11 @@ body {
 }
 
 .container {
-    width: 700px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    width: 450px;
     margin: 0 auto;
-    padding: 100px;
+    box-shadow: 1px 1px 5px gray;
 
 }
 
@@ -25,5 +24,5 @@ body {
 
 .container h2 {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
