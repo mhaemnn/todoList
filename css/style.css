@@ -6,3 +6,24 @@
 #success_message {
     display: none;
 }
+
+body {
+    font-family: arial;
+
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 100px;
+
+}
+
+.container table {
+    margin: 0 auto;
+}
+
+.container h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
