@@ -26,13 +26,13 @@
         <!-- no indentitas -->
         <tr>
           <td><label for="identitas">Nomor Identitas</label></td>
-          <td colspan="2"><input type="number" id="identitas"></td>
+          <td colspan="2"><input type="number" id="identitas" min="1" max="5"></td>
         </tr>
 
         <!-- No hp -->
         <tr>
           <td><label for="phone">No. HP</label></td>
-          <td colspan="2"><input type="tel" id="phone" placeholder="+62"></td>
+          <td colspan="2"><input type="tel" id="phone" placeholder="+62" max="12"></td>
         </tr>
 
         <!-- kelas penumpang -->
@@ -56,11 +56,11 @@
         <!-- jumlah penumpang -->
         <tr>
           <td><label for="jmlPenumpang">Jumlah Penumpang</label></td>
-          <td colspan="2"><input type="number" id="jmlPenumpang"></td>
+          <td colspan="2"><input type="number" id="jmlPenumpang" placeholder="Masukan jumlah penumpang"></td>
         </tr>
         <tr>
           <td><label for="jmlPenumLansi">Jumlah Penumpang Lansia</label></td>
-          <td colspan="2"><input type="number" id="jmlPenumLansi"></td>
+          <td colspan="2"><input type="number" id="jmlPenumLansi" placeholder="Masukan penumpang Lansia"></td>
         </tr>
 
         <!-- harga tiket & bayar tiket -->
@@ -82,7 +82,7 @@
         <!-- button pesan tiket, totol & reset -->
         <tr>
           <td></td>
-          <td><input type="submit" value="Pesan Tiket"> <input type="reset" value="Reset" onclick="msg()"></td>
+          <td><input type="submit" value="Pesan Tiket" class="submit"> <input type="reset" value="Reset" class="reset" onclick="msg()"></td>
         </tr>
 
     </table>

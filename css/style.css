@@ -22,15 +22,29 @@ body {
     margin: 0 auto;
 }
 
-.container select {
-    background-color: white;
-    color: black;
-    border: 1px solid blue;
-}
-
 .container h2 {
     text-align: center;
     padding-bottom: 10px;
+
+}
+
+/* .container select {
+    background-color: white;
+    color: black;
+    border: 1px solid blue;
+} */
+
+.submit {
+    background-color: white;
+    color: black;
+    border: 1px solid blue;
+
+}
+
+.reset {
+    background-color: white;
+    color: black;
+    border: 1px solid blue;
 
 }
 
