@@ -1,11 +1,19 @@
-<?php
-if (isset($_GET['nama'])) {
-    echo $_GET['nama'];
-}
+<!DOCTYPE html>
+<html lang="en">
 
-echo $_GET['no_Idn'];
-echo $_GET['nohp'];
-echo $_GET['klsPenumpang'];
-echo $_GET['jmlPenumpangLansia'];
-echo $_GET['hargaTiket'];
-echo $_GET['totolBayar'];
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>halaman hasil</title>
+</head>
+
+<body>
+  <div class="container">
+    <form action="">
+
+    </form>
+  </div>
+</body>
+
+</html>

@@ -6,10 +6,13 @@
 
 body {
     font-family: arial;
-
+    background-image: url(../img/bus.png);
+    background-size: cover;
+    background-position-y: -200px;
 }
 
 .container {
+    background-color: lightblue;
     padding-bottom: 50px;
     padding-top: 20px;
     width: 450px;

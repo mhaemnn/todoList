@@ -24,7 +24,7 @@ include "koneksi.php";
     <h2>From Pemesanan</h2>
     <!-- <img src="../img/bus.png" alt=""> -->
     <table cellspacing="20" cellpadding="0">
-      <form action="/SKKNIProject/php/hasil.php" method="post">
+      <form action="" method="post">
 
         <!-- namapengguna -->
         <tr>
@@ -51,7 +51,7 @@ include "koneksi.php";
             <select name="kelas" id="kelas" name="kelas" style="width:77% ;">
               <option value="Eksekutif">Eksekutif</option>
               <option value="Bisnis">Bisnis</option>
-              <option value="Ekonimi">Ekonimi</option>
+              <option value="Ekonomi">Ekonimi</option>
             </select>
           </td>
         </tr>
