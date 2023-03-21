@@ -35,4 +35,37 @@ form button {
   border: none;
   background: slateblue;
   color: white;
+  outline: none;
+  cursor: pointer;
+}
+.container {
+  margin-top: 50px;
+}
+ul {
+  list-style: none;
+  width: 500px;
+}
+ul li {
+  width: 100%;
+  background: #fff;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  position: relative;
+  cursor: pointer;
+  display: block;
+  margin: 5px 0;
+  box-shadow: -3px 6px 4px #222;
+  transition: 0.5s linear;
+}
+ul li span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  text-align: center;
+  background: #e00;
+}
+ul li span i {
+  color: white;
 }
