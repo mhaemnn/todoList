@@ -22,6 +22,7 @@ form {
   background: #fff;
   box-shadow: -3px 6px 4px #222;
 }
+
 form input {
   width: 250px;
   height: 40px;
@@ -29,6 +30,7 @@ form input {
   outline: none;
   padding: 0 5px;
 }
+
 form button {
   width: 50px;
   height: 40px;

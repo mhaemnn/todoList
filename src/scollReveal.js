@@ -1,7 +1,8 @@
-const sr = scrollReveal({
+const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
   duration: 2000,
   reset: true,
 });
-sr.reveal();
+
+sr.reveal("#text", { origin: "top", delay: "200" });
