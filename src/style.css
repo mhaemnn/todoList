@@ -1,60 +1,7 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
-
-
-body {
-    font-family: arial;
-    background-image: url(../img/bus.png);
-    background-size: cover;
-    background-position-y: -200px;
-}
-
-.container {
-    background-color: lightblue;
-    padding-bottom: 50px;
-    padding-top: 20px;
-    width: 450px;
-    margin: 0 auto;
-    box-shadow: 1px 1px 5px gray;
-
-}
-
-.container table {
-    margin: 0 auto;
-}
-
-.container h2 {
-    text-align: center;
-    padding-bottom: 10px;
-
-}
-
-/* .container img {
-    width: 100px;
-    height: 100px;
-    background-size: cove   r;
-    margin-left: 8px;
-    /* .container select {
-    background-color: white;
-    color: black;
-    border: 1px solid blue;
-}
-.submit {
-    background-color: white;
-    color: black;
-    border: 1px solid blue;
-
-}
-
-.reset {
-    background-color: white;
-    color: black;
-    border: 1px solid blue;
-
-}
-
-.container table i {
-    font-size: 11pt;
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+* {
+  font-family: "Signika", sans-serif;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
