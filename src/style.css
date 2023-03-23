@@ -71,3 +71,20 @@ ul li span {
 ul li span i {
   color: white;
 }
+@media only screen and (max-width: 767px) {
+  h1 {
+    text-align: center;
+    font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container ul li {
+    width: 350px;
+    padding: 10px;
+    margin-top: 5px;
+    margin: 5px auto;
+    box-shadow: -3px 6px 4px #222;
+    transition: 0.5s linear;
+  }
+}
